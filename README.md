@@ -1,8 +1,8 @@
-# TEST FOR ATL SOFTWARE
+# TEST FOR XXX SOFTWARE
 This is a step by step PHP API WITH  MySQL ,In this webapi i am going to show you  one of the options  to create a simple API CRUD (Create, Read, Update, Delete).
 
 
-## PHP API DOCUMENTACION
+## PHP API DOCUMENTATION
 
 * `GET - http://localhost/APP/api/read.php` Fetch ALL Records
 * `GET - http://localhost/APP/api/single_read.php?id=2` Fetch Single Record
