@@ -15,11 +15,21 @@ $item = new Contacto($db);
 
 $data = json_decode(file_get_contents("php://input"));
 
-if (
-    isset($data->nombres)   ||
-    isset($data->apellidos) ||
-    isset($data->telefono)  ||
-    isset($data->email)
+if ((
+        !isset($data->nombres)   ||
+        !isset($data->apellidos) ||
+        !isset($data->telefono)  ||
+        !isset($data->email)
+        
+        ) 
+        ||
+
+       (
+        empty($data->nombres)   ||
+        empty($data->apellidos) ||
+        empty($data->telefono)  ||
+        empty($data->email)
+        )
 ) {
 
     echo json_encode("Todos los campos son requeridos.");

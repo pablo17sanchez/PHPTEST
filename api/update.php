@@ -17,11 +17,20 @@ $data = json_decode(file_get_contents("php://input"));
 
 
 if (
-    !isset($data->id)        ||
-    !isset($data->nombres)   ||
-    !isset($data->apellidos) ||
-    !isset($data->telefono)  ||
-    !isset($data->email)
+    (
+        !isset($data->id)        ||
+        !isset($data->nombres)   ||
+        !isset($data->apellidos) ||
+        !isset($data->telefono)  ||
+        !isset($data->email)
+        )    
+        ||
+      (
+        empty($data->nombres)   ||
+        empty($data->id)        ||
+        empty($data->apellidos) ||
+        empty($data->telefono)  ||
+        empty($data->email))
 ) {
 
     echo json_encode("Todos los campos son requeridos.");

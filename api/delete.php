@@ -17,7 +17,7 @@ $data = json_decode(file_get_contents("php://input"));
 
 
 
-if (!isset($data->id)) {
+if (!isset($data->id) || empty($data->id) ) {
     echo json_encode("El campo id es requerido.");
 } else {
     $item->id = $data->id;
