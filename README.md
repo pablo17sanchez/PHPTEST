@@ -1,5 +1,5 @@
-# TEST FOR XXX SOFTWARE
-This is a step by step PHP API WITH  MySQL ,In this webapi i am going to show you  one of the options  to create a simple API CRUD (Create, Read, Update, Delete).
+# TEST FOR TAL SOFTWARE
+This is a test application made to present a simple webapi in php WITH a simple API CRUD (Create, Read, Update, Delete).
 
 
 ## PHP API DOCUMENTATION
