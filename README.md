@@ -1,5 +1,21 @@
 # TEST FOR TAL SOFTWARE
-This is a test application made to present a simple webapi in php WITH a simple API CRUD (Create, Read, Update, Delete).
+Assessment of technical skills
+
+
+### Exercise for Backend:
+
+Ø Make a REST API (preferably without using a framework) to manage a contact list.
+
+Ø We have to be able to add new contacts (name, surname, email), list the contacts and delete a contact.
+
+
+
+
+### Installation
+Clone the repo into a apache server
+   ```sh
+   git clone https://github.com/pablo17sanchez/PHPTEST.git
+   ```
 
 
 ## PHP API DOCUMENTATION
