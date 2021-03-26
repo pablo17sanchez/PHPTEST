@@ -61,7 +61,7 @@ Clone the repo into a apache server or other types of server thant can render ph
    
    # Abount me 🔥
 
-   I love code and I love C# and Js
+   I love code and I love C# and Js (I learn fast)
    
    
    
