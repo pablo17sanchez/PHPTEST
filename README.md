@@ -12,7 +12,7 @@ Assessment of technical skills
 
 
 ### Installation
-Clone the repo into a apache server
+Clone the repo into a apache server or other types of server thant can render php aplications
    ```sh
    git clone https://github.com/pablo17sanchez/PHPTEST.git
    ```
