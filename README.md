@@ -19,7 +19,7 @@ Clone the repo into a apache server or other types of server thant can render ph
    
    Create dabase and table
    
-     ```
+     ```sh
    create database db;
 
 CREATE TABLE contacto (
