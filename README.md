@@ -16,6 +16,40 @@ Clone the repo into a apache server or other types of server thant can render ph
    ```sh
    git clone https://github.com/pablo17sanchez/PHPTEST.git
    ```
+   
+   Create dabase and table
+   
+     ```sql
+   create database db;
+   
+   
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+
+CREATE TABLE `contacto` (
+  `id` int(11) NOT NULL,
+  `Nombres` varchar(80) NOT NULL,
+  `Apellidos` varchar(80) NOT NULL,
+  `Telefono` varchar(15) NOT NULL,
+  `email` varchar(80) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+ALTER TABLE `contacto`
+  ADD PRIMARY KEY (`id`);
+
+
+ALTER TABLE `contacto`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+COMMIT;
+
+
+   ```
+
 
 
 ## PHP API DOCUMENTATION
