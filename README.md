@@ -17,7 +17,7 @@ Clone the repo into a apache server or other types of server thant can render ph
    git clone https://github.com/pablo17sanchez/PHPTEST.git
    ```
    
-# Create dabase and table
+### Create dabase and table
  
  ```sql
   create database db;
