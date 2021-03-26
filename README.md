@@ -68,7 +68,6 @@ Clone the repo into a apache server or other types of server thant can render ph
    
 <div align="center">
 
-[![HitCount](http://hits.dwyl.com/ABSphreak/ABSphreak.svg)](http://hits.dwyl.com/ABSphreak/ABSphreak)
 
 <i>Follow me:</i><br>
 
