@@ -17,10 +17,10 @@ Clone the repo into a apache server or other types of server thant can render ph
    git clone https://github.com/pablo17sanchez/PHPTEST.git
    ```
    
-   Create dabase and table
-   
-     ```sh
-   create database db;
+# Create dabase and table
+ 
+ ```sql
+  create database db;
 
 CREATE TABLE contacto (
   id int(11) NOT NULL,
@@ -31,12 +31,15 @@ CREATE TABLE contacto (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 ALTER TABLE contacto
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (id);
 
 ALTER TABLE contacto
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY id int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 COMMIT;
-   ```
+
+```
+
+     
 
 
 
