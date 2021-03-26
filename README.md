@@ -66,9 +66,13 @@ Clone the repo into a apache server or other types of server thant can render ph
    
    
    
-   <i>Follow me:</i><br>
+<div align="center">
 
-  <a href="https://www.linkedin.com/in/pablo-ismael-sanchez-rijo-078b26ab/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-      square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+[![HitCount](http://hits.dwyl.com/ABSphreak/ABSphreak.svg)](http://hits.dwyl.com/ABSphreak/ABSphreak)
+
+<i>Follow me:</i><br>
+
+<a href="https://www.linkedin.com/in/pablo-ismael-sanchez-rijo-078b26ab/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 
 </div>
